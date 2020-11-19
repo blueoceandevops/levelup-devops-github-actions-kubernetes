@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:5.0-alpine as build
 
 WORKDIR /src
 
-COPY LevelUpdevOps.csproj .
+COPY LevelUpDevOps.csproj .
 RUN dotnet restore
 
 COPY . .
